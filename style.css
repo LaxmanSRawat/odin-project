@@ -1,0 +1,163 @@
+* {
+    font-family: 'roboto', 'arial';
+}
+
+body{
+    margin:0;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 5px 15px;
+    color: white;
+    border:0px;
+    font-weight: bolder;
+}
+
+.hero{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navigation-links{
+    display:flex;
+}
+
+.navigation-links ul{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 10px ;
+}
+.navigation-links a{
+    text-decoration: none;
+    color: inherit;
+    font: 18px;
+}
+
+
+.header-logo{
+    color: #f9faf8;
+    font-size:24px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-heading {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color:#E5E7EB
+
+}
+
+.hero-image {
+    width: 300px;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px white solid;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 20px 0px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    margin: 40px 0px;
+}
+
+.card{
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border: 4px rgb(51, 125, 173) solid;
+    border-radius: 8px;
+}
+
+.testimony{
+    padding: 80px;
+    background-color: #E5E7EB;
+
+}
+
+.testimony p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.testimony div{
+    color:#12171f;
+    text-align: right;
+    font-weight: 900;
+}
+
+.sign-up {
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px 40px;
+
+}
+
+.sign-up-text h4{
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.sign-up-text p{
+    font-size: 12px;
+    color:#E5E7EB
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 100px;
+}
